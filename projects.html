@@ -21,28 +21,64 @@
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
-        <h1>Projects</h1>
     </header>
     
     <main>
-        <section id="projects">
-            <div class="project-card">
-                <h3>Project Title</h3>
-                <p>Brief description of the project, including your role and key outcomes.</p>
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="pcb.png" alt="Project 1">
+                    <h3>Gas Sensor PCB</h3>
+                    <p>
+                        Myself and two other students were tasked with designing a sensing module to capture some data from the environment. We decided to build
+                        a sensing board to detect harmful gasses present in the environment ,and provide warning to the users if any harmful gas reaches a dangerous
+                        level.
+                    </p>
+                </div>
+                <div class="project-card">
+                    <img src="tdoa.png" alt="Project 2">
+                    <h3>Acoustic Triangulation using Time Difference of Arrival</h3>
+                    <p>
+                        As a team of 3, we were tasked with building a system that could accurately triangulate an audio source on a square grid using two
+                        Raspberry Pi's along with 4 Ada Fruit microphones. The hardware configuration for this task was minimal - the difficulty came in 
+                        synchronising the recordings from the different sets of microphones and capturing data of a high enough quality to send to our
+                        Time Delay of Arrical algorithm to produce accurate results
+                    </p>
+                </div>
+                <div class="project-card">
+                    <img src="bird.png" alt="Project 3">
+                    <h3>Web Application for a Smart Bird Scale</h3>
+                    <p>
+                        In my design project in my first semester of fourth year, I was responsible for creating an interface through which users could interact with a 
+                        smart bird scale (designed by the rest of my team). I used React JS to build a clean, modern Web Application capable of remotely receiving data from the
+                        bird scale, displaying this neatly to the user and providing filtering options so users could select only certain data to view.
+                    </p>
+                </div>
+                <div class="project-card">
+                    <img src="naartjie.jpg" alt="Project 3">
+                    <h3>Naartjie: Split Payments Using Interledger's Open Payments Protocol</h3>
+                    <p>
+                        As part of a Hackathon hosted by Interledger at UCT, my team and I developed a split payments system to allow for seamlessly sending
+                        money from one or more, to one or more, people. This 'many-to-many' payment system has two main use cases. Firstly, splitting the Cost
+                        of an item between a group of people, without one person having to pay the lump sum. For example, it would allow a group of people
+                        splitting a product on an ecommerce site to pay only for their share. The second big benefit is sending money to multiple receivers.
+                        This is aprticularly useful in situations where a ecommerce vendor is repaying a loan. Our system allows for each individual payment
+                        made to the vendor, to be automatically split such that the vendor receives a certain percentage, and a small percentage is sent immediately
+                        to the vendor's supplier
+                    </p>
+                </div>
+                <div class="project-card">
+                    <img src="zephyr.jpeg" alt="Project 3">
+                    <h3>Low Cost Generic FOTA for IoT Devices (In Progress)</h3>
+                    <p>
+                        For my final year Research Project, I am working on a FOTA (Firmware Over the Air) System to be used by Internet of Things devices.
+                        This project works with the Zephyr RTOS to allow for wireless firmware updates for devices deployed in the field to take place seamlessly, securely
+                        and with minimal power consumption. The goal is to ensure that these updates can be rolled out to all relevant devices - regardless of their
+                        hardware architecture.
+                    </p>
+                </div>
             </div>
-            <br />
-            <br />
-            <div class="project-card">
-                <h3>Project Title</h3>
-                <p>Brief description of the project, including your role and key outcomes.</p>
-            </div>
-            <br />
-            <br />
-            <div class="project-card">
-                <h3>Project Title</h3>
-                <p>Brief description of the project, including your role and key outcomes.</p>
-            </div>
-            <!-- Add more project cards as needed -->
         </section>
     </main>
     
